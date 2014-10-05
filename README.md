@@ -7,6 +7,8 @@ Usage
 -----
 I needed this for use with [gulp](https://github.com/gulpjs/gulp/), but it works with any stream.
 ```js
+var end = require('stream-end');
+
 gulp.src('specs/*.spec.coffee', {read: false})
   .pipe(mocha())
   .pipe(end(function() {
