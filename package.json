@@ -1,0 +1,32 @@
+{
+  "name": "stream-end",
+  "version": "0.0.0",
+  "description": "I just want a callback when the stream ends",
+  "author": "Adam Hull <adam@hmlad.com>",
+  "keywords": [
+    "stream",
+    "pipe",
+    "end",
+    "callback",
+    "gulpfriendly"
+  ],
+  "main": "stream_end",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hurrymaplelad/stream-end.git"
+  },
+  "homepage": "https://github.com/hurrymaplelad/stream-end",
+  "bugs": "https://github.com/hurrymaplelad/stream-end/issues",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.7.x",
+    "mocha": "~1.x.x",
+    "through": "~2.3.6",
+    "through2": "~0.6.2",
+    "jshint": "~2.5.6"
+  },
+  "scripts": {
+    "test": "jshint *.js && mocha"
+  }
+}
