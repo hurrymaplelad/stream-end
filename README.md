@@ -10,7 +10,7 @@ I needed this for use with [gulp](https://github.com/gulpjs/gulp/), but it works
 gulp.src('specs/*.spec.coffee', {read: false})
   .pipe(mocha())
   .pipe(end(function() {
-    return devServer.close();
+    devServer.close();
   }));
 ```
 
